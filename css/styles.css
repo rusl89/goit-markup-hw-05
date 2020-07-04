@@ -571,6 +571,7 @@ footer .title {
 
 .work-element:hover {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
 }
 
 .nav-buttons {
@@ -585,7 +586,6 @@ footer .title {
     color: var(--title-text-color);
     background-color: #F5F4FA;
     margin-right: 8px;
-    border: 0px solid transparent
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
@@ -650,15 +650,14 @@ footer .title {
     
 }
 
-.text-postion:hover::before {
-
+.link-overlay:hover .text-postion::before {
     transform: translateY(0%);
 }
 
-.text-postion:hover .description{
+.link-overlay:hover .description {
     transform: translate(0%, 0%);
     
-}
+} 
 
 .works-list .description {
 
